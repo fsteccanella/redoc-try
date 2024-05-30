@@ -13,8 +13,7 @@ window.initTry.$operation
 */
 
 function initTry(userCfg) {
-  loadScript(`https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js`)
-    .then(() => loadScript(`https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js`))
+  loadScript(`https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js`)
     .then(() => loadScript(`https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui-bundle.js`))
     .then(() => loadScript(`https://cdn.jsdelivr.net/npm/compare-versions@3.6.0/index.min.js`))
     .then(() => {
